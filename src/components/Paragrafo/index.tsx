@@ -5,6 +5,7 @@ export type Props = {
   tipo?: 'principal' | 'secundario'
   fontSize?: number
 }
+
 const Paragrafo = ({ children, tipo = 'principal', fontSize }: Props) => (
   <P fontSize={fontSize} tipo={tipo}>
     {children}
